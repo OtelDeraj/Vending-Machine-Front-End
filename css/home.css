@@ -1,0 +1,14 @@
+.test {
+    color: red;
+}
+
+.addMoney{
+    border: 2px;
+    border-color: black;
+}
+
+.itemCard{
+    height: 33%;
+    width: 33%;
+    padding: 10px;
+}
