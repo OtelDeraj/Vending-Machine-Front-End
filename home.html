@@ -22,17 +22,19 @@
                 <!--Order Details Form-->
 
                 <div class="row">
-                    <!--Fund Manipulation-->
-                    <h3>Total $ In</h3>
-                    <input id="fundsDisplay" type="text" value="0.00" readonly>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <button id="dollarBtn" class="badge-pill addMoney">Add Dollar</button>
-                            <button id="quarterBtn" class="badge-pill addMoney">Add Quarter</button>
-                        </div>
-                        <div class="col-md-6">
-                            <button id="dimeBtn" class="badge-pill addMoney">Add Dime</button>
-                            <button id="nickelBtn" class="badge-pill addMoney">Add Nickel</button>
+                    <div class="col-md-12">
+                        <!--Fund Manipulation-->
+                        <h3>Total $ In</h3>
+                        <input id="fundsDisplay" type="text" value="0.00" readonly>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <button id="dollarBtn" class="badge-pill addMoney">Add Dollar</button>
+                                <button id="quarterBtn" class="badge-pill addMoney">Add Quarter</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button id="dimeBtn" class="badge-pill addMoney">Add Dime</button>
+                                <button id="nickelBtn" class="badge-pill addMoney">Add Nickel</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -40,7 +42,7 @@
 
                 <div class="row">
                     <!--Item Selection Display-->
-                    <div class="col">
+                    <div class="col-md-12">
                         <h3>Messages</h3>
                         <input id="messageDisplay" type="text" readonly />
                         <br />
@@ -52,10 +54,12 @@
                 <hr />
 
                 <div class="row">
-                    <!--Returned Change-->
-                    <h3>Change</h3>
-                    <input id="changeDisplay" type="text" readonly />
-                    <button id="changeReturn" class="badge-pill">Change Return</button>
+                    <div class="col-md-12">
+                        <!--Returned Change-->
+                        <h3>Change</h3>
+                        <textarea id="changeDisplay" type="text" readonly></textarea>
+                        <button id="changeReturn" class="badge-pill">Change Return</button>
+                    </div>
                 </div>
             </div>
 
