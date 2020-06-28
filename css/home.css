@@ -12,3 +12,11 @@
     width: 33%;
     padding: 10px;
 }
+
+h1{
+    text-align: center;
+}
+
+input{
+    display: block;
+}

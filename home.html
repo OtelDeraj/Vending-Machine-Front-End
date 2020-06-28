@@ -5,7 +5,7 @@
     <title>Vending Machine</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="css/home.css" rel="stylesheet" type="text/css"/>
+    <link href="css/home.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -18,11 +18,13 @@
         <div class="row">
             <div id="itemMenu" class="col-md-9"></div>
 
-            <div id="orderDetails" class="col-md-3"> <!--Order Details Form-->
+            <div id="orderDetails" class="col-md-3">
+                <!--Order Details Form-->
 
-                <div class="row"> <!--Fund Manipulation-->
+                <div class="row">
+                    <!--Fund Manipulation-->
                     <h3>Total $ In</h3>
-                    <input id="fundsDisplay" type="text" readonly>
+                    <input id="fundsDisplay" type="text" value="0.00" readonly>
                     <div class="row">
                         <div class="col-md-6">
                             <button id="dollarBtn" class="badge-pill addMoney">Add Dollar</button>
@@ -34,20 +36,26 @@
                         </div>
                     </div>
                 </div>
-                <hr/>
+                <hr />
 
-                <div class="row"> <!--Item Selection Display-->
-                    <h3>Messages</h3>
-                    <input id="messageDisplay" type="text" readonly/>
-                    <label for="itemNumDisplay">Item: </label>
-                    <input id="itemNumDisplay" type="number" readonly/>
-                    <button class="badge-pill">Make Purchase</button>
+                <div class="row">
+                    <!--Item Selection Display-->
+                    <div class="col">
+                        <h3>Messages</h3>
+                        <input id="messageDisplay" type="text" readonly />
+                        <br />
+                        <label for="itemNumDisplay">Item: </label>
+                        <input id="itemNumDisplay" type="number" readonly />
+                        <button id="makePurchase" class="badge-pill">Make Purchase</button>
+                    </div>
                 </div>
-                <hr/>
+                <hr />
 
-                <div class="row"> <!--Returned Change-->
+                <div class="row">
+                    <!--Returned Change-->
                     <h3>Change</h3>
-                    <input id="changeDisplay" type="text" readonly/>
+                    <input id="changeDisplay" type="text" readonly />
+                    <button id="changeReturn" class="badge-pill">Change Return</button>
                 </div>
             </div>
 
